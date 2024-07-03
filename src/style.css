@@ -1,0 +1,21 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 16px;
+}
+
+.grid {
+  display: grid;
+  gap: 4px;
+  background-color: gray;
+}
+
+.grid-cell {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
